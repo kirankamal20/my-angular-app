@@ -2,7 +2,7 @@ trigger:
 - master  # Define the branch to trigger the pipeline on
 
 pool:
-  vmImage: 'ubuntu-latest'  # Use the latest Ubuntu agent
+  vmImage: 'windows-latest'  # Use the latest Ubuntu agent
 
 variables:
   # Define your environment-specific variables here
